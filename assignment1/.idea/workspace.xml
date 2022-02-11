@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="673b145f-99c3-4844-abbd-ef20cee1bd94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/PassDetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/SmsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/WebBrowserActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/details.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/ic_baseline_message_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_pass_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_sms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_web_browser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson4/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson4/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/rectangle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/rectangle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/dimens.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24sf7cq9NkRZyUBRdNZ9AciKSzT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="673b145f-99c3-4844-abbd-ef20cee1bd94" name="Default Changelist" comment="" />
+      <created>1644424048848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644424048848</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="welcome_text">Welcome to ScoreKeeper! You can use our app to keep track of all of your scores!</string>
+    <string name="view_scores">View Scores</string>
+    <string name="add_scores">Add Scores</string>
+    <string name="manage_scores">Manage Scores</string>
+</resources>
