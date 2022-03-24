@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.lh1145112a1.assignment1.Score
 
 class ScoreAdapter (val context : Context,
-                      val scores : List<Score>,
-                      val itemListener : ScoreItemListener
-) : RecyclerView.Adapter<ScoreAdapter.ScoreViewHolder>() {
+                    val scores : List<Score>,
+                    val itemListener : ScoreItemListener
+                    ) : RecyclerView.Adapter<ScoreAdapter.ScoreViewHolder>() {
     /**
      * This class is used to allow us to connect/access the elements in the
      * item_project layout file

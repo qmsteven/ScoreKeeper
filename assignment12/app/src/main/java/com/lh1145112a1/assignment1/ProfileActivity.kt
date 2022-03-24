@@ -21,5 +21,6 @@ class ProfileActivity : AppCompatActivity() {
         if (authDB.currentUser == null) {
 
         }
+        setSupportActionBar(binding.mainToolBar.toolbar)
     }
 }
