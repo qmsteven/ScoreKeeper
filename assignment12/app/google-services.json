@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621275089675",
+    "project_id": "scorekeeer",
+    "storage_bucket": "scorekeeer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621275089675:android:88c31bc69f7f4cfb95300e",
+        "android_client_info": {
+          "package_name": "com.lh1145112a1.assignment1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621275089675-3kmga65sf49c7ko3nhu7kgtq7g4qqqgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8emzVMgqAdXmLrCeeFCAI7I0rVXCZguo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621275089675-3kmga65sf49c7ko3nhu7kgtq7g4qqqgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

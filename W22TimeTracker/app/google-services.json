@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1047450156432",
+    "project_id": "w22timetracker-ea1e9",
+    "storage_bucket": "w22timetracker-ea1e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047450156432:android:0d6b2476c92b33dd730715",
+        "android_client_info": {
+          "package_name": "com.lh1145112l5.w22timetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047450156432-iiqevnvv4rm1mpmhcvo1e0uq0p9ge0jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBASBk5kDOrA_LnpFB1fpAoYqDCOKFOojg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047450156432-iiqevnvv4rm1mpmhcvo1e0uq0p9ge0jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

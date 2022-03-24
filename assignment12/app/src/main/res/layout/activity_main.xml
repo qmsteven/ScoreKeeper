@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        android:id="@+id/mainToolBar"
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
     <TextView
         android:id="@+id/introText"
         android:layout_width="wrap_content"
@@ -18,13 +28,24 @@
         android:text="@string/welcome_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/mainToolBar" />
+
+    <Button
+        android:id="@+id/manageScoreButton"
+        android:layout_width="243dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/manage_scores"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addScoreButton" />
 
     <Button
         android:id="@+id/viewScoresButton"
         android:layout_width="243dp"
         android:layout_height="70dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="104dp"
         android:text="@string/view_scores"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,22 +56,11 @@
         android:id="@+id/addScoreButton"
         android:layout_width="243dp"
         android:layout_height="70dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="24dp"
         android:text="@string/add_scores"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewScoresButton" />
-
-    <Button
-        android:id="@+id/manageScoreButton"
-        android:layout_width="243dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="23dp"
-        android:text="@string/manage_scores"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addScoreButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

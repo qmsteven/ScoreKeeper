@@ -4,4 +4,9 @@
     <string name="view_scores">View Scores</string>
     <string name="add_scores">Add Scores</string>
     <string name="manage_scores">Manage Scores</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="add_new_score">Add new Score</string>
+    <string name="enter_score_name">Enter Score Name</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="add_score">Add Score</string>
 </resources>
