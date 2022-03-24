@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.21979166666666666" />
         <entry key="app/src/main/res/drawable-mdpi/background.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable-mdpi/background_selected.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable-mdpi/score_selector.xml" value="0.1835" />
