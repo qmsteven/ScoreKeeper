@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.21979166666666666" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_baseline_add_box_24.xml" value="0.1935" />
         <entry key="app/src/main/res/drawable-mdpi/background.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable-mdpi/background_selected.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable-mdpi/score_selector.xml" value="0.1835" />
@@ -11,8 +12,10 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.141" />
         <entry key="app/src/main/res/layout/activity_add_score.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.32967032967032966" />
+        <entry key="app/src/main/res/layout/activity_manage_score.xml" value="0.2807971014492754" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_signin.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_view_scores.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_score.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/toolbar_main.xml" value="0.2515625" />
         <entry key="app/src/main/res/menu/main_menu.xml" value="0.2515625" />

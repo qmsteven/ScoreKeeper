@@ -9,8 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.lh1145112a1.assignment1.Score
 
 class ScoreAdapter (val context : Context,
-                    val scores : List<Score>,
-                    val itemListener : ScoreItemListener
+                    val scores : List<Score>
                     ) : RecyclerView.Adapter<ScoreAdapter.ScoreViewHolder>() {
     /**
      * This class is used to allow us to connect/access the elements in the
@@ -39,9 +38,6 @@ class ScoreAdapter (val context : Context,
         with(viewHolder) {
             scoreNameText.text = score.scoreName
             descriptionTextView.text = score.description
-            itemView.setOnClickListener {
-                itemListener.scoreSelected(score)
-            }
         }
     }
 
@@ -50,14 +46,5 @@ class ScoreAdapter (val context : Context,
      */
     override fun getItemCount(): Int {
         return scores.size
-    }
-
-    //In Java
-    // public interface ProjectItemListener
-    // {
-    //     public projectSelected(Project project)
-    // }
-    interface ScoreItemListener {
-        fun scoreSelected(score : Score)
     }
 }

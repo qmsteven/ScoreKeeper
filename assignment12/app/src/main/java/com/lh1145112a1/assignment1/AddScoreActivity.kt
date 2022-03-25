@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import com.google.firebase.auth.FirebaseAuth
@@ -14,7 +15,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import com.lh1145112a1.assignment1.databinding.ActivityAddScoreBinding
 
-class AddScoreActivity : AppCompatActivity(), ScoreAdapter.ScoreItemListener {
+class AddScoreActivity : AppCompatActivity() {
     private lateinit var binding : ActivityAddScoreBinding
     private lateinit var auth : FirebaseAuth
 
@@ -27,7 +28,7 @@ class AddScoreActivity : AppCompatActivity(), ScoreAdapter.ScoreItemListener {
 
         binding.addScoreButton.setOnClickListener {
             var scoreName = binding.scoreNameText.text.toString().trim()
-            var description = binding.descriptionEditText.toString().trim()
+            var description = binding.descriptionEditText.text.toString().trim()
 
             if (scoreName.isNotEmpty() && description.isNotEmpty()) {
                 val db = FirebaseFirestore.getInstance().collection("scores")
@@ -55,7 +56,12 @@ class AddScoreActivity : AppCompatActivity(), ScoreAdapter.ScoreItemListener {
 
         val viewModel: ScoreViewModel by viewModels()
         viewModel.getScores().observe(this, { scores ->
-            binding.recyclerView.adapter = ScoreAdapter(this, scores, this)
+            binding.linearLayout.removeAllViews()
+            for (score in scores) {
+                var newScoreTextView = TextView(this)
+                newScoreTextView.text = score.toString() + ", " + score.toDescriptionString() + ". "
+                binding.linearLayout.addView(newScoreTextView)
+            }
         })
 
         setSupportActionBar(binding.mainToolBar.toolbar)
@@ -77,9 +83,5 @@ class AddScoreActivity : AppCompatActivity(), ScoreAdapter.ScoreItemListener {
             }
         }
         return super.onOptionsItemSelected(item)
-    }
-
-    override fun scoreSelected(score: Score) {
-        TODO("Not yet implemented")
     }
 }

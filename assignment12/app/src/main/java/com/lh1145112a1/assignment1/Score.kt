@@ -12,4 +12,10 @@ class Score (
         else
             return "undefined"
     }
+    fun toDescriptionString(): String {
+        if (description != null)
+            return description!!
+        else
+            return "undefined"
+    }
 }
