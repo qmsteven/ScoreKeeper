@@ -15,6 +15,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Spinner
+        android:id="@+id/projectSelectSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainToolBar" />
+
     <TextView
         android:id="@+id/projectTextView"
         android:layout_width="wrap_content"
@@ -23,7 +31,7 @@
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/mainToolBar"
+        app:layout_constraintTop_toBottomOf="@id/projectSelectSpinner"
         tools:text="COMP3025-Major Project" />
 
     <Spinner
@@ -90,6 +98,17 @@
         app:layout_constraintTop_toBottomOf="@id/finishButton"
         tools:text="Total Time: 56 minutes" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mapsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_add_location_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteY="671dp"
+        android:focusable="true"
+        android:contentDescription="@string/add_a_location_to_the_activity" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

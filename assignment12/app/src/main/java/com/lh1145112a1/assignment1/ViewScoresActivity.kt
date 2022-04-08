@@ -1,8 +1,11 @@
 package com.lh1145112a1.assignment1
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -38,5 +41,27 @@ class ViewScoresActivity : AppCompatActivity() {
             }
         })
         setSupportActionBar(binding.mainToolBar.toolbar);
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.action_home -> {
+                startActivity(Intent(applicationContext, MainActivity::class.java))
+            }
+            R.id.action_add_score -> {
+                startActivity(Intent(applicationContext, AddScoreActivity::class.java))
+                return true
+            }
+            R.id.action_edit_profile -> {
+                startActivity(Intent(applicationContext, ProfileActivity::class.java))
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

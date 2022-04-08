@@ -74,6 +74,9 @@ class AddScoreActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+            R.id.action_home -> {
+                startActivity(Intent(applicationContext, MainActivity::class.java))
+            }
             R.id.action_add_score -> {
 //                startActivity(Intent(applicationContext, AddScoreActivity::class.java))
                 return true

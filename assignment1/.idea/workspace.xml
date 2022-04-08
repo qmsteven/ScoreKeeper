@@ -5,49 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="673b145f-99c3-4844-abbd-ef20cee1bd94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../assignment12/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/PassDetailsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/SmsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/java/com/lh1145112w4/w22comp3025w4/WebBrowserActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/details.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/ic_baseline_message_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_pass_details.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_sms.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/layout/activity_web_browser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson4/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson4/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/rectangle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/drawable/rectangle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson4/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/MapsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/drawable/ic_baseline_add_location_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/CreateProjectActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/CreateProjectActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/LogTimeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/LogTimeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/SummaryActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/java/com/lh1145112l5/w22timetracker/SummaryActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/layout/activity_log_time.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/layout/activity_log_time.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/layout/activity_summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/layout/activity_summary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W22TimeTracker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../W22TimeTracker/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +36,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -90,5 +62,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
