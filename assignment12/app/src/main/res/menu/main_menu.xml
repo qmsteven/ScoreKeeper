@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-aupto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_home"
-        android:icon="@drawable/ic_baseline_add_box_24"
+        android:icon="@drawable/ic_baseline_home_24"
         android:title="@string/home"
-        app:showAsAction="ifRoom" />
-    <item android:id="@+id/action_add_score"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_add_new_score"
         android:icon="@drawable/ic_baseline_add_box_24"
         android:title="@string/add_new_score"
         app:showAsAction="ifRoom"/>
     <item android:id="@+id/action_edit_profile"
         android:icon="@drawable/ic_baseline_account_box_24"
         android:title="@string/edit_profile"
-        app:showAsAction="true" />
+        app:showAsAction="ifRoom"/>
 </menu>

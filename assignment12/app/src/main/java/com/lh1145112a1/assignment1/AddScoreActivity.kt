@@ -43,15 +43,12 @@ class AddScoreActivity : AppCompatActivity() {
                         Toast.makeText(this, "DB Updated", Toast.LENGTH_LONG).show()
                     }
                     .addOnFailureListener { exception ->
-                        Log.w(
-                            "DB_Issue",
-                            exception!!.localizedMessage
-                        )
+                        Log.w("DB_Issue", exception!!.localizedMessage)
                     }
             }
-            else
-                Toast.makeText(this, "Name and description must be filled in", Toast.LENGTH_LONG)
-                    .show()
+            else {
+                Toast.makeText(this, "Name and description must be filled in", Toast.LENGTH_LONG).show()
+            }
         }
 
         val viewModel: ScoreViewModel by viewModels()
@@ -77,7 +74,7 @@ class AddScoreActivity : AppCompatActivity() {
             R.id.action_home -> {
                 startActivity(Intent(applicationContext, MainActivity::class.java))
             }
-            R.id.action_add_score -> {
+            R.id.action_add_new_score -> {
 //                startActivity(Intent(applicationContext, AddScoreActivity::class.java))
                 return true
             }

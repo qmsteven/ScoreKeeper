@@ -53,7 +53,7 @@ class ViewScoresActivity : AppCompatActivity() {
             R.id.action_home -> {
                 startActivity(Intent(applicationContext, MainActivity::class.java))
             }
-            R.id.action_add_score -> {
+            R.id.action_add_new_score -> {
                 startActivity(Intent(applicationContext, AddScoreActivity::class.java))
                 return true
             }

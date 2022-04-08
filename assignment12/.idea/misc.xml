@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/drawable-mdpi/background_selected.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable-mdpi/score_selector.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.142" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.141" />
         <entry key="app/src/main/res/layout/activity_add_score.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.32967032967032966" />
