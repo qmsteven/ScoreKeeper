@@ -36,15 +36,15 @@ class ManageScoreActivity : AppCompatActivity() {
         viewModel.getScores().observe(this, { scores ->
             binding.linearLayout.removeAllViews()
             for (score in scores) {
-                var scoreDBName = score.toString()
+                var id = score.id
                 var newScoreTextView = TextView(this)
                 newScoreTextView.text = score.toString() + ", " + score.toDescriptionString() + ". "
                 var deleteButton = Button(this)
                 deleteButton.text = "Delete"
                 deleteButton.setOnClickListener {
-                    db.collection("scores").document(scoreDBName)
+                    db.collection("scores").document("id")
                         .delete()
-                        .addOnSuccessListener { Toast.makeText(this, "Database updated", Toast.LENGTH_LONG).show() }
+                        .addOnSuccessListener { Toast.makeText(this, "Database updated, score: $id removed", Toast.LENGTH_LONG).show() }
                         .addOnFailureListener { e ->
                             Log.w(TAG, "Error deleting document", e)
                             Toast.makeText(this, "Database not updated", Toast.LENGTH_LONG).show()

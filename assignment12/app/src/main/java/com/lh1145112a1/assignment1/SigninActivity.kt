@@ -20,9 +20,7 @@ class SigninActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
 
-        val providers = arrayListOf(
-            AuthUI.IdpConfig.EmailBuilder().build(),
-            AuthUI.IdpConfig.GoogleBuilder().build())
+        val providers = arrayListOf(AuthUI.IdpConfig.EmailBuilder().build())
 
         // Create and launch sign-in intent
         val signInIntent = AuthUI.getInstance()
